@@ -1,0 +1,19 @@
+{ application, model,
+[
+    { description, "Simplified Mnesia Model Management Library" },
+    { vsn, "0.1.0" },
+    { registered, [] },
+    { mod, { model_app, [] } },
+    { applications,
+    [
+        kernel,
+        stdlib,
+        mnesia
+    ] },
+    { env,[] },
+    { modules, [] },
+
+    { maintainers, [] },
+    { licenses, [] },
+    { links, [] }
+] }.
